@@ -1,13 +1,91 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## Meal App :: Daily Assistance of you small mess!!
+Meal App is created with only HTML,CSS,JS,Bootstrap for Frontend Developemnt. For Backend Development used PHP framework Laravel and MySQL for Database Design. 
+Also there is Manager and Member Role system. Manager can do extra feature to manage the member and show the summary of the month. 
 
+Member can find there info in dashboard! And Mananger can see member info and can update also. However this is simple and minimal project that i created.
+
+## Demo
+
+
+
+<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/1.PNG" alt="">
+
+
+<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/5.png" alt="User Dashboard">
+
+
+<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/6.png" alt="User Dashboard">
+
+
+<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/1.2.PNG" alt="">
+
+
+<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/2.PNG" alt="">
+
+
+<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/3.PNG" alt="">
+
+
+<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/4.png" alt="">
+
+
+<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/7.png" alt="">
+
+
+<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/8.png" alt="">
+
+## Run Webapp
+To run this application must require node module and composer autoload module.
+
+- 1st Command use 
+
+
+        composer install
+        
+        
+- 2nd Command use
+
+
+        npm install
+        
+        
+- 3rd Command use
+
+
+        cp .env.example .env
+        
+        
+- 4th Command use
+
+
+        php artisan key:generate
+        
+        
+- Run xamp server to Create Database use 
+
+
+        php artisan migrate
+        
+        
+- Run the server 
+
+
+        php artisan serve
+        
+        
+
+
+
+
+## About Laravel
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-
-## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
