@@ -20,8 +20,6 @@ Member can find there info in dashboard! And Mananger can see member info and ca
 <img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/1.2.PNG" alt="">
 
 
-<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/2.PNG" alt="">
-
 
 <img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/3.PNG" alt="">
 
