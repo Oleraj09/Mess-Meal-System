@@ -21,6 +21,10 @@
                             <h6 class="d-flex align-items-center gap-2 text-center ps-3 pt-2">
                                 <p class="mb-0 fs-3">{{Auth::user()->name}}</p>
                             </h6>
+                            <h6 class="d-flex align-items-center gap-2 text-center ps-3">
+                                as <p class="mb-0 text-info"> {{ Auth::user()->role == 'manager' ? "Manager" : "Member" }}</p>
+                            </h6>
+                            
                             <hr>
                             <a href="{{route('profile')}}" class="d-flex align-items-center gap-2 dropdown-item">
                                 <i class="ti ti-user fs-6"></i>
